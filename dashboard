@@ -17,3 +17,4 @@
     <script src="dashboard.js"></script>
 </body>
 </html>
+<p>Estimated Tax Owed: <span id="tax">0</span> NGN</p>
