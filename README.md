@@ -5,3 +5,11 @@ Potential Vulnerabilities:
 - Reentrancy (not used, but awareness)
 - Access control issues
 - Lack of logging or transparency
+### Security Simulation & Threat Awareness
+
+This project demonstrates ethical security practices for NGNToken:
+
+- Access control: only contract owner can mint
+- Overflow/underflow: prevented by Solidity 0.8+
+- Test vulnerability contract demonstrates risk if mint() were public
+- Safe: all simulations are on local blockchain, no real systems touched
