@@ -19,3 +19,5 @@ async function updateBalance() {
     const tax = calculateTax(formattedBalance);
     document.getElementById("tax").innerText = tax.toFixed(2);
   }
+// SECURITY NOTE: Only the contract owner can mint tokens.
+// Simulated vulnerability: if mint() were public, anyone could inflate tokens.
